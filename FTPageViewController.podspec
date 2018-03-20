@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FTPageViewController'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'PageViewController with custom transitions.'
 
 
