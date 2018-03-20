@@ -1,0 +1,16 @@
+PODS:
+  - FTPageViewController (0.1.0)
+
+DEPENDENCIES:
+  - FTPageViewController (from `../`)
+
+EXTERNAL SOURCES:
+  FTPageViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FTPageViewController: 0394d7105be4011e7aff78ff4d00ad6d6105c2a1
+
+PODFILE CHECKSUM: 05c0655148677378651a68274cf215ada3542cf9
+
+COCOAPODS: 1.4.0

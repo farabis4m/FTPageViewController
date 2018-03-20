@@ -1,0 +1,6 @@
+framework module FTPageViewController {
+  umbrella header "FTPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
