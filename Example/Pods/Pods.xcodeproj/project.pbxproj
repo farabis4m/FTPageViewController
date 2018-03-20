@@ -10,16 +10,16 @@
 		2215EBA4EA90703A45B9F6D9F4E5FFBC /* Pods-FTPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7249187F854812D3CB9CD165D353596 /* Pods-FTPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A1864E514A81E3C8638DF1BE526C1D9 /* FTPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F551EC02A2EB58A5E99B501DCF53DD /* FTPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7147FB24CED5819F9AB781308254BF53 /* Pods-FTPageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 076229412325BAA5A01DEB8150FFDB9B /* Pods-FTPageViewController_Tests-dummy.m */; };
-		D24A57672060FB82000BA2FE /* MSCubePageAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A575D2060FB82000BA2FE /* MSCubePageAnimator.m */; };
-		D24A57682060FB82000BA2FE /* MSCardFlowAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A575E2060FB82000BA2FE /* MSCardFlowAnimator.h */; };
-		D24A57692060FB82000BA2FE /* MSCubePageAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A575F2060FB82000BA2FE /* MSCubePageAnimator.h */; };
-		D24A576A2060FB82000BA2FE /* MSCardFlowAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57602060FB82000BA2FE /* MSCardFlowAnimator.m */; };
-		D24A576B2060FB82000BA2FE /* MSPushOutAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57612060FB82000BA2FE /* MSPushOutAnimator.m */; };
-		D24A576C2060FB82000BA2FE /* MSPageAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57622060FB82000BA2FE /* MSPageAnimator.m */; };
-		D24A576D2060FB82000BA2FE /* MSPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A57632060FB82000BA2FE /* MSPageController.h */; };
-		D24A576E2060FB82000BA2FE /* MSPageAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A57642060FB82000BA2FE /* MSPageAnimator.h */; };
-		D24A576F2060FB82000BA2FE /* MSPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57652060FB82000BA2FE /* MSPageController.m */; };
-		D24A57702060FB82000BA2FE /* MSPushOutAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A57662060FB82000BA2FE /* MSPushOutAnimator.h */; };
+		D24A57672060FB82000BA2FE /* FTCubePageAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A575D2060FB82000BA2FE /* FTCubePageAnimator.m */; };
+		D24A57682060FB82000BA2FE /* FTCardFlowAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A575E2060FB82000BA2FE /* FTCardFlowAnimator.h */; };
+		D24A57692060FB82000BA2FE /* FTCubePageAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A575F2060FB82000BA2FE /* FTCubePageAnimator.h */; };
+		D24A576A2060FB82000BA2FE /* FTCardFlowAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57602060FB82000BA2FE /* FTCardFlowAnimator.m */; };
+		D24A576B2060FB82000BA2FE /* FTPushOutAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57612060FB82000BA2FE /* FTPushOutAnimator.m */; };
+		D24A576C2060FB82000BA2FE /* FTPageAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57622060FB82000BA2FE /* FTPageAnimator.m */; };
+		D24A576D2060FB82000BA2FE /* FTPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A57632060FB82000BA2FE /* FTPageController.h */; };
+		D24A576E2060FB82000BA2FE /* FTPageAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A57642060FB82000BA2FE /* FTPageAnimator.h */; };
+		D24A576F2060FB82000BA2FE /* FTPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A57652060FB82000BA2FE /* FTPageController.m */; };
+		D24A57702060FB82000BA2FE /* FTPushOutAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D24A57662060FB82000BA2FE /* FTPushOutAnimator.h */; };
 		D4FE49CDF06116B52AD648111EEBE1E7 /* FTPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B05C7940EE57BE58DAA1A45BC1ED3C /* FTPageViewController-dummy.m */; };
 		D5E41360400A62333AA588F4BD928FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DDD9A1029E49730EBF83FA86525A1F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -53,16 +53,16 @@
 		AC49A838A93D7A75E451F90E534C9995 /* Pods-FTPageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTPageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		B10F3F6C3EE20281C8AEB1F8F14F55E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7249187F854812D3CB9CD165D353596 /* Pods-FTPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D24A575D2060FB82000BA2FE /* MSCubePageAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCubePageAnimator.m; path = FTPageViewController/Classes/MSCubePageAnimator.m; sourceTree = "<group>"; };
-		D24A575E2060FB82000BA2FE /* MSCardFlowAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCardFlowAnimator.h; path = FTPageViewController/Classes/MSCardFlowAnimator.h; sourceTree = "<group>"; };
-		D24A575F2060FB82000BA2FE /* MSCubePageAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCubePageAnimator.h; path = FTPageViewController/Classes/MSCubePageAnimator.h; sourceTree = "<group>"; };
-		D24A57602060FB82000BA2FE /* MSCardFlowAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCardFlowAnimator.m; path = FTPageViewController/Classes/MSCardFlowAnimator.m; sourceTree = "<group>"; };
-		D24A57612060FB82000BA2FE /* MSPushOutAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPushOutAnimator.m; path = FTPageViewController/Classes/MSPushOutAnimator.m; sourceTree = "<group>"; };
-		D24A57622060FB82000BA2FE /* MSPageAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPageAnimator.m; path = FTPageViewController/Classes/MSPageAnimator.m; sourceTree = "<group>"; };
-		D24A57632060FB82000BA2FE /* MSPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPageController.h; path = FTPageViewController/Classes/MSPageController.h; sourceTree = "<group>"; };
-		D24A57642060FB82000BA2FE /* MSPageAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPageAnimator.h; path = FTPageViewController/Classes/MSPageAnimator.h; sourceTree = "<group>"; };
-		D24A57652060FB82000BA2FE /* MSPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPageController.m; path = FTPageViewController/Classes/MSPageController.m; sourceTree = "<group>"; };
-		D24A57662060FB82000BA2FE /* MSPushOutAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPushOutAnimator.h; path = FTPageViewController/Classes/MSPushOutAnimator.h; sourceTree = "<group>"; };
+		D24A575D2060FB82000BA2FE /* FTCubePageAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTCubePageAnimator.m; path = FTPageViewController/Classes/FTCubePageAnimator.m; sourceTree = "<group>"; };
+		D24A575E2060FB82000BA2FE /* FTCardFlowAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTCardFlowAnimator.h; path = FTPageViewController/Classes/FTCardFlowAnimator.h; sourceTree = "<group>"; };
+		D24A575F2060FB82000BA2FE /* FTCubePageAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTCubePageAnimator.h; path = FTPageViewController/Classes/FTCubePageAnimator.h; sourceTree = "<group>"; };
+		D24A57602060FB82000BA2FE /* FTCardFlowAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTCardFlowAnimator.m; path = FTPageViewController/Classes/FTCardFlowAnimator.m; sourceTree = "<group>"; };
+		D24A57612060FB82000BA2FE /* FTPushOutAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPushOutAnimator.m; path = FTPageViewController/Classes/FTPushOutAnimator.m; sourceTree = "<group>"; };
+		D24A57622060FB82000BA2FE /* FTPageAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPageAnimator.m; path = FTPageViewController/Classes/FTPageAnimator.m; sourceTree = "<group>"; };
+		D24A57632060FB82000BA2FE /* FTPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPageController.h; path = FTPageViewController/Classes/FTPageController.h; sourceTree = "<group>"; };
+		D24A57642060FB82000BA2FE /* FTPageAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPageAnimator.h; path = FTPageViewController/Classes/FTPageAnimator.h; sourceTree = "<group>"; };
+		D24A57652060FB82000BA2FE /* FTPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPageController.m; path = FTPageViewController/Classes/FTPageController.m; sourceTree = "<group>"; };
+		D24A57662060FB82000BA2FE /* FTPushOutAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPushOutAnimator.h; path = FTPageViewController/Classes/FTPushOutAnimator.h; sourceTree = "<group>"; };
 		D7AE753DB84C482A80D90AC3FB043364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C16C2E55E6FAA9C8F2B6850812653B /* Pods-FTPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9D86C5FA7B0B168D6CAE5A4F046B77C /* FTPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,16 +163,16 @@
 		B6D243C068E3D3DD1C762AE211641242 /* FTPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D24A575E2060FB82000BA2FE /* MSCardFlowAnimator.h */,
-				D24A57602060FB82000BA2FE /* MSCardFlowAnimator.m */,
-				D24A575F2060FB82000BA2FE /* MSCubePageAnimator.h */,
-				D24A575D2060FB82000BA2FE /* MSCubePageAnimator.m */,
-				D24A57642060FB82000BA2FE /* MSPageAnimator.h */,
-				D24A57622060FB82000BA2FE /* MSPageAnimator.m */,
-				D24A57632060FB82000BA2FE /* MSPageController.h */,
-				D24A57652060FB82000BA2FE /* MSPageController.m */,
-				D24A57662060FB82000BA2FE /* MSPushOutAnimator.h */,
-				D24A57612060FB82000BA2FE /* MSPushOutAnimator.m */,
+				D24A575E2060FB82000BA2FE /* FTCardFlowAnimator.h */,
+				D24A57602060FB82000BA2FE /* FTCardFlowAnimator.m */,
+				D24A575F2060FB82000BA2FE /* FTCubePageAnimator.h */,
+				D24A575D2060FB82000BA2FE /* FTCubePageAnimator.m */,
+				D24A57642060FB82000BA2FE /* FTPageAnimator.h */,
+				D24A57622060FB82000BA2FE /* FTPageAnimator.m */,
+				D24A57632060FB82000BA2FE /* FTPageController.h */,
+				D24A57652060FB82000BA2FE /* FTPageController.m */,
+				D24A57662060FB82000BA2FE /* FTPushOutAnimator.h */,
+				D24A57612060FB82000BA2FE /* FTPushOutAnimator.m */,
 				6F1376F52393311BDB1F3185FE1A70CC /* Pod */,
 				7495243EF1CE1A47FE62D0D35B66BC62 /* Support Files */,
 			);
@@ -212,12 +212,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24A57702060FB82000BA2FE /* MSPushOutAnimator.h in Headers */,
+				D24A57702060FB82000BA2FE /* FTPushOutAnimator.h in Headers */,
 				6A1864E514A81E3C8638DF1BE526C1D9 /* FTPageViewController-umbrella.h in Headers */,
-				D24A576D2060FB82000BA2FE /* MSPageController.h in Headers */,
-				D24A57692060FB82000BA2FE /* MSCubePageAnimator.h in Headers */,
-				D24A576E2060FB82000BA2FE /* MSPageAnimator.h in Headers */,
-				D24A57682060FB82000BA2FE /* MSCardFlowAnimator.h in Headers */,
+				D24A576D2060FB82000BA2FE /* FTPageController.h in Headers */,
+				D24A57692060FB82000BA2FE /* FTCubePageAnimator.h in Headers */,
+				D24A576E2060FB82000BA2FE /* FTPageAnimator.h in Headers */,
+				D24A57682060FB82000BA2FE /* FTCardFlowAnimator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,12 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24A576F2060FB82000BA2FE /* MSPageController.m in Sources */,
-				D24A57672060FB82000BA2FE /* MSCubePageAnimator.m in Sources */,
-				D24A576B2060FB82000BA2FE /* MSPushOutAnimator.m in Sources */,
+				D24A576F2060FB82000BA2FE /* FTPageController.m in Sources */,
+				D24A57672060FB82000BA2FE /* FTCubePageAnimator.m in Sources */,
+				D24A576B2060FB82000BA2FE /* FTPushOutAnimator.m in Sources */,
 				D4FE49CDF06116B52AD648111EEBE1E7 /* FTPageViewController-dummy.m in Sources */,
-				D24A576C2060FB82000BA2FE /* MSPageAnimator.m in Sources */,
-				D24A576A2060FB82000BA2FE /* MSCardFlowAnimator.m in Sources */,
+				D24A576C2060FB82000BA2FE /* FTPageAnimator.m in Sources */,
+				D24A576A2060FB82000BA2FE /* FTCardFlowAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

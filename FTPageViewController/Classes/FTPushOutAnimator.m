@@ -1,14 +1,14 @@
 //
-//  MSPushOutAnimator.m
+//  FTPushOutAnimator.m
 //  pager
 //
 //  Created by Nick Savula on 10/27/16.
 //  Copyright © 2016 Nick Savula. All rights reserved.
 //
 
-#import "MSPushOutAnimator.h"
+#import "FTPushOutAnimator.h"
 
-@implementation MSPushOutAnimator
+@implementation FTPushOutAnimator
 
 - (void)transitFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController precentage:(CGFloat)percent forward:(BOOL)forward {
     if (fromViewController == toViewController || toViewController == nil) {

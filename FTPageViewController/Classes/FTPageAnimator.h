@@ -1,5 +1,5 @@
 //
-//  MSPageAnimator.h
+//  FTPageAnimator.h
 //  pager
 //
 //  Created by Nick Savula on 10/3/16.
@@ -9,7 +9,7 @@
 @import Foundation;
 @import UIKit;
 
-@interface MSPageAnimator : NSObject
+@interface FTPageAnimator : NSObject
 
 - (void)transitFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController precentage:(CGFloat)percent forward:(BOOL)forward;
 

@@ -1,18 +1,18 @@
 //
-//  MSPageController.m
+//  FTPageController.m
 //
 //  Created by Nick Savula on 10/3/16.
 //  Copyright © 2016 Nick Savula. All rights reserved.
 //
 
-#import "MSPageController.h"
+#import "FTPageController.h"
 
 typedef NS_ENUM(NSUInteger, MSPageSwitchDirection) {
     MSPageSwitchDirectionForward,
     MSPageSwitchDirectionBackward
 };
 
-@interface MSPageController ()
+@interface FTPageController ()
 
 @property (nonatomic, strong) __kindof UIViewController *currentController;
 @property (nonatomic, assign) MSPageSwitchDirection direction;
@@ -35,7 +35,7 @@ typedef NS_ENUM(NSUInteger, MSPageSwitchDirection) {
 
 @end
 
-@implementation MSPageController
+@implementation FTPageController
 
 #pragma mark - initializers
 
@@ -62,7 +62,7 @@ typedef NS_ENUM(NSUInteger, MSPageSwitchDirection) {
 - (void)setupDefaults {
     self.animationDuration = 0.5;
     
-    self.pageAnimator = [[MSPageAnimator alloc] init];
+    self.pageAnimator = [[FTPageAnimator alloc] init];
 }
 
 #pragma mark - controller lifecycle
